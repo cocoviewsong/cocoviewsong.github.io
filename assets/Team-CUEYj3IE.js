@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as t,o as c}from"./index-CRQ7E241.js";const o={},r={class:"team"};function s(a,n){return c(),t("div",r,"team")}const f=e(o,[["render",s]]);export{f as default};
