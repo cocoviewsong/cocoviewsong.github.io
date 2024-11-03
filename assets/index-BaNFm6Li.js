@@ -1,0 +1,1 @@
+import{_ as o,a as s,b as t,o as n}from"./index-1lPoCCO5.js";const a={},r={class:"not-found-wrapper"};function c(_,e){return n(),s("div",r,e[0]||(e[0]=[t("img",{src:"https://www.miyoushe.com/_nuxt/img/404.fd75472.png",alt:""},null,-1),t("h2",null,"很抱歉,您要找的页面不存在",-1)]))}const l=o(a,[["render",c],["__scopeId","data-v-ae44f603"]]);export{l as default};
