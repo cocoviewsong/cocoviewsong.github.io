@@ -1,12 +1,29 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <script>
+      document.documentElement.className =
+        localStorage.getItem('theme') === 'true'
+          ? 'cocoviewsong-dark'
+          : 'cocoviewsong-light'
+
+      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        console.log('用户系统是暗色模式')
+      } else {
+        console.log('用户系统是亮色模式')
+      }
+    </script>
     <meta charset="UTF-8" />
     <link rel="icon" href="/fv.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cocoviewsong</title>
-    <script type="module" crossorigin src="/assets/index-D6uaYdbn.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DXcFXR8i.css">
+    <style>
+      html {
+        background-color: var(--cvs-bg-color);
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-DmBhjwxV.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-C3dCOSjT.css">
   </head>
   <body>
     <div id="app"></div>
