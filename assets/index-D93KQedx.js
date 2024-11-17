@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as s,g as o}from"./index-D_ZZm4wJ.js";const r={},n={class:"down-wrapper wrap-v2"};function c(d,e){return a(),s("div",n,e[0]||(e[0]=[o("h2",null,[o("a",{href:"https://music.163.com/#/download",target:"_blank"},"下载客户端")],-1)]))}const l=t(r,[["render",c],["__scopeId","data-v-28b4d25e"]]);export{l as default};
