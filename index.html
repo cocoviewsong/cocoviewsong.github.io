@@ -6,13 +6,6 @@
         localStorage.getItem('theme') === 'true'
           ? 'cocoviewsong-dark'
           : 'cocoviewsong-light'
-
-      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        console.log('用户系统是暗色模式')
-        document.documentElement.className = 'cocoviewsong-dark'
-      } else {
-        console.log('用户系统是亮色模式')
-      }
     </script>
     <meta charset="UTF-8" />
     <link rel="icon" href="/fv.ico" />
@@ -22,9 +15,14 @@
       html {
         background-color: var(--cvs-bg-color);
       }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --cvg-bg-color: #131313;
+        }
+      }
     </style>
-    <script type="module" crossorigin src="/assets/index-D_ZZm4wJ.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DPy4m7Bj.css">
+    <script type="module" crossorigin src="/assets/index-C1SoRnHf.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-xsHdzl-h.css">
   </head>
   <body>
     <div id="app"></div>
