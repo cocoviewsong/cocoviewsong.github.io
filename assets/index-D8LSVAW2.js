@@ -1,1 +1,0 @@
-import{_ as o,c as s,g as t,o as n}from"./index-C1SoRnHf.js";const a={},c={class:"not-found-wrapper"};function r(_,e){return n(),s("div",c,e[0]||(e[0]=[t("img",{src:"https://www.miyoushe.com/_nuxt/img/404.fd75472.png",alt:""},null,-1),t("h2",null,"很抱歉,您要找的页面不存在",-1)]))}const l=o(a,[["render",r],["__scopeId","data-v-ae44f603"]]);export{l as default};
